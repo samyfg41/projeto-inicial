@@ -5,6 +5,6 @@
 ```
 Iniciando a clonagem de repositórios do Github e apresentando algumas ferramentas tais como:
 - vs-code
--
-- git
+- MARK-DOWN
+- Git
 ```
