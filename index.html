@@ -2,8 +2,7 @@
 <!-- Isso é um DTD de HTML5 -->
 <!-- 
 Isso é um comentário 
-The <!DOCTYPE html> document type definition, declaration defines that 
-this document is an HTML5 document.
+The <!DOCTYPE html> document type definition, declaration defines that this document is an HTML5 document.
 -->
 
 <!-- o HTML é a tag raiz da estrutura html, todo o conteúdo deve
@@ -19,26 +18,23 @@ ser criado dentro dele.
     <title>EXEMPLO</title>
   </head>
   <body>
-    <h1>Exemplo de quebras de linha e elementos de linha e bloco!</h1>
+    <div class="container">       
 
-    <div style="border: solid red 2px">
-      <p style="border: solid blue 2px">
-        A div é um elemento de bloco, porque ocupa a linha toda! Já o parágrafo
-        é um elemento de linha e bloco!
-      </p>
-      <span
-        style="border: solid green 2px; background-color: black; color: beige"
-        >Agora vem o SPAN e te mostra os elementos de linha são os elementos de
-        linha mais simples pois eles só ocupam espaço de seu conteúdo no
-        viewport.</span
-      >
+      <header>
+        <h1>Minha Página</h1>
+        <nav>
+          <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.--> 
+          <!--ul>li*3>a[href="#"]{Item - $}-->  
+          <ul>
+            <li><a href="http://www2.fiap.com.br/" target="_blank">FIAP</a></li>
+            <li><a href="https://www.google.com.br/" target="_blank">Google</a></li>
+            <li><a href="https://github.com/" target="_blank">Github</a></li>
+          </ul> 
+
+
+
+        </nav>
+      </header>      
     </div>
-
-    <!-- <h1>Exemplo de Cabeçalhos</h1>
-    <h2>Segundo Título</h2>
-    <h3>Terceiro Título</h3>
-    <h4>Quarto Título</h4>
-    <h5>Quinto Título</h5>
-    <h6>Sexto Título</h6> -->
   </body>
 </html>
