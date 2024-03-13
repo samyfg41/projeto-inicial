@@ -18,53 +18,100 @@ ser criado dentro dele.
     <title>EXEMPLO</title>
   </head>
   <body>
-    <div class="container">       
-
+    <div class="container">
       <header class="cabecalho">
         <h1>Minha Página</h1>
-        <nav>
-          <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.--> 
-          <!--ul>li*3>a[href="#"]{Item - $}-->  
-          <ul><!--ul>li*3>a[href="#"]{Rodape $}-->
+        <nav class="menu">
+          <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.-->
+          <!--ul>li*3>a[href="#"]{Item - $}-->
+          <ul>
+            <!--ul>li*3>a[href="#"]{Rodape $}-->
             <li><a href="./paginas/help.html">Help</a></li>
-            <li><a href="./paginas/contact.html">Contact</a></li>
             <li><a href="./paginas/about.html">About</a></li>
-          </ul> 
-        </nav> 
-      </header>  
+            <li><a href="./paginas/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-          <hr />
+      <hr />
 
-          <section class="conteudo">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto voluptas itaque accusamus, mollitia aliquid amet modi asperiores! Iste quidem esse sapiente facere corporis natus, numquam consequatur est voluptatum accusantium! Odit perferendis sapiente expedita obcaecati porro a in ratione doloremque magnam id suscipit officiis nisi quas magni, provident repudiandae assumenda maiores quos optio delectus animi. Sequi iusto consequatur quisquam quasi, voluptatum animi eos? Doloremque quia vitae corporis debitis sit blanditiis dolorem expedita magni, quasi commodi minima maxime eaque reiciendis, assumenda et aut dolor omnis excepturi vel, obcaecati rerum accusamus asperiores delectus unde? Magnam exercitationem illo molestiae et magni fugiat deserunt?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, rerum maiores. Laborum blanditiis nulla laudantium corporis laboriosam quod ex nihil odit porro magni hic accusantium, ab alias quasi nostrum explicabo? Amet nisi tempora quo consequatur suscipit cupiditate facilis, non sunt? Animi ducimus error numquam quia sint reiciendis quidem ad consectetur?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non est similique dolorem architecto, tempore consequatur doloremque officia illum adipisci sequi cum culpa deserunt aliquam temporibus neque sed odio voluptatem. Quis id harum asperiores quo odit deserunt modi quasi, quisquam labore iusto quibusdam numquam dolorem eaque libero fugit incidunt obcaecati tempora molestiae accusantium aut aspernatur pariatur? Culpa nihil doloremque dolore unde voluptate dicta et repudiandae incidunt hic architecto magnam delectus adipisci laborum voluptatem nesciunt non vero voluptates fugit pariatur, nam quae nulla nostrum cum. Nesciunt ab neque non provident. Saepe quas assumenda error officiis dolores odio molestiae maiores voluptate hic amet.
-            </p>
-          </section>
+      <section class="conteudo">
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Help - Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Adipisci atque tempora accusamus reiciendis placeat deleniti amet,
+            doloremque sequi velit officia laborum soluta ipsa, fugit cum
+            aperiam molestias nisi, iste laudantium rem iusto ea nesciunt
+            cumque. Rerum eveniet amet id? Excepturi, quo recusandae, autem
+            laborum minima quae dolores, voluptates qui quaerat modi libero
+            dignissimos maxime esse dicta. Provident laudantium laboriosam
+            veniam, similique, voluptas magni facere neque veritatis omnis
+            delectus molestias nemo ullam ducimus tenetur vel nostrum id tempora
+            odit quisquam modi, voluptatibus eum. Nemo dolor aspernatur
+            laboriosam consequuntur ea non iste, esse numquam? Laborum dolor,
+            odit ducimus delectus necessitatibus molestias perferendis!
+          </p>
+          <a href="./paginas/help.html">Mais...</a>
+        </div>
 
-          <footer clas="rodape">
-             <nav>
-              <ul>
-                <li>
-                  <a href="http://www2.fiap.com.br/" target="_blank">FIAP</a>
-                </li>
-                <li>
-                  <a href="https://www.google.com.br/" target="_blank">Google</a>
-                </li>
-                <li>
-                  <a href="https://github.com/" target="_blank">Github</a>
-                </li>
-              </ul>
-             </nav> 
-             <p>
-              Todos os direitos reservados <small>2024 - &copy;</small>
-             </p>
-          </footer>     
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            About - Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Pariatur, veniam optio. Dolor reprehenderit culpa harum repellat nam
+            aliquid aliquam laudantium.
+          </p>
+          <a href="./paginas/about.html">Mais...</a>
+        </div>
+
+        <div id="contact">
+          <h2>CONTACT</h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="">Nome:</label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+              <div>
+                <label for="">Nome:</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                />
+              </div>
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+      <footer clas="rodape">
+        <nav>
+          <ul>
+            <li>
+              <a href="http://www2.fiap.com.br/" target="_blank">FIAP</a>
+            </li>
+            <li>
+              <a href="https://www.google.com.br/" target="_blank">Google</a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank">Github</a>
+            </li>
+          </ul>
+        </nav>
+        <p>Todos os direitos reservados <small>2024 - &copy;</small></p>
+      </footer>
     </div>
   </body>
 </html>
