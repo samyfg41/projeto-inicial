@@ -21,9 +21,12 @@ form{
     padding: 10px;
 }
 p{
-   color: #008000;
+    color: #008000;
 }
 button{
     background-color: #0000ff;
     color: #ffffff;
+}
+footer{
+    border-top: 2px solid #ff0000;
 }
