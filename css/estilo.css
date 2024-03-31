@@ -16,3 +16,7 @@ nav ul li{
 #conteudo{
     line-height: 1.5;
 }
+form{
+    border: 1px solid #666666;
+    padding: 10px;
+}
